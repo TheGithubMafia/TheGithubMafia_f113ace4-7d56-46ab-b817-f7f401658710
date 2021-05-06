@@ -833,8 +833,14 @@ input[name='perPage'] {
 /* Profile Image Style */
 
 .profile-img {
-	width: 10%;
+	height: 25vh;
 	border-radius: 10%;
+}
+
+.delete-img-btn {
+	height: fit-content;
+	margin-left: -2.5em;
+	z-index: 1;
 }
 /* ---------------------------------------------------------------- */
 /* testimonial page styles */
