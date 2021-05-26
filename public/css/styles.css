@@ -321,6 +321,10 @@ a::after {
 .views-badge {
 	background-color: var(--color-primary);
 }
+
+.reply-icon::before {
+	content: '\f3e5';
+}
 /* ------------------------------------------------------------ */
 /* Input boxes and placeholder text styles */
 
@@ -994,7 +998,7 @@ input[name='perPage'] {
 }
 
 .testimonials-clean p {
-	color: #7d8285;
+	color: black;
 }
 
 .testimonials-clean h2 {
@@ -1042,7 +1046,7 @@ input[name='perPage'] {
 
 .testimonials-clean .item .box {
 	padding: 1.875rem;
-	background-color: #fff;
+	background-color: #9fc5e8;
 	position: relative;
 }
 
@@ -1055,7 +1059,7 @@ input[name='perPage'] {
 	height: 0;
 	border: 0.938rem solid transparent;
 	border-width: 0.75rem 0.938rem;
-	border-top-color: #fff;
+	border-top-color: #9fc5e8;
 }
 
 .testimonials-clean .item .author {
@@ -1086,10 +1090,6 @@ input[name='perPage'] {
 	float: left;
 	margin-right: 0.75rem;
 	margin-top: -0.313rem;
-}
-
-.testimonial-wall {
-	padding: 3.125rem;
 }
 
 .testimonial-data {
@@ -1351,4 +1351,67 @@ svg {
 	background-color: #f2f6f8;
 	border-left: 3px solid var(--color-secondary);
 	border-right: 3px solid var(--color-secondary);
+}
+
+div.scroll {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+/* Comment reply section */
+
+.reply {
+	border: 0.13rem solid rgb(223, 220, 220);
+	border-radius: 0.4rem;
+	padding: 1.3rem;
+	margin-bottom: 1.3rem;
+	box-shadow: 0rem 0rem 0.07rem 0rem;
+}
+
+.replies {
+	transition: opacity 0.5s ease-out;
+	opacity: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+.show {
+	opacity: 1;
+	height: auto;
+}
+
+/* testimonial wall styling  */
+
+.blockquote-custom {
+	position: relative;
+	font-size: 1.1rem;
+	background-color: #f2f6f8 !important;
+	font-weight: bold;
+}
+.blockquote-custom-icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: -25px;
+	left: 50px;
+}
+.testimonial-views {
+	color: var(--color-primary);
+}
+.testimonial-author {
+	color: var(--color-secondary) !important;
+	font-size: 1.5rem;
+}
+.testimonial-card-div {
+	width: 60vw;
+}
+.testimonial-card-div:hover {
+	position: relative;
+	z-index: 2;
+	transform: scale(1.1);
 }
