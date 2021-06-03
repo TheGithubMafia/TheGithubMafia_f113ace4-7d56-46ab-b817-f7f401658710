@@ -4,6 +4,8 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const multer = require('multer');
 const methodOverride = require('method-override');
+const fetch = require('node-fetch');
+const { stringify } = require('querystring');
 const User = require('../models/User.model');
 const auth = require('../middlewares/auth');
 const {
@@ -120,7 +122,7 @@ router.post(
 			// eslint-disable-next-line
 			updates.forEach((update) => (user[update] = req.body[update]));
 			await user.save();
-			res.redirect('/');
+			res.redirect('/dashboard');
 		} catch (e) {
 			res.status(500).send(e);
 		}
@@ -141,6 +143,53 @@ router.post(
 			password,
 			confirmPassword,
 		} = req.body;
+		if (!req.body['g-recaptcha-response']) {
+			return res.status(401).render('./auth/signUp', {
+				error: 'Please select captcha.',
+				data: {
+					firstName,
+					lastName,
+					userName,
+					password,
+					email,
+					confirmPassword,
+				},
+			});
+		}
+
+		// Secret key
+		const secretKey = process.env.SECRET_KEY_CAPTCHA;
+
+		// Verify URL
+		const query = stringify({
+			secret: secretKey,
+			response: req.body['g-recaptcha-response'],
+			remoteip: req.connection.remoteAddress,
+		});
+
+		const verifyURL = `https://google.com/recaptcha/api/siteverify?${query}`;
+
+		// Make a request to verifyURL
+		const body = await fetch(verifyURL).then((res) => res.json());
+
+		// If not successful
+		if (body.success !== undefined && !body.success) {
+			return res.status(401).render('./auth/signUp', {
+				error: 'Failed captcha verification',
+				data: {
+					firstName,
+					lastName,
+					userName,
+					password,
+					email,
+					confirmPassword,
+				},
+			});
+		}
+		// return res.json({
+		// 	success: false,
+		// 	msg: 'Failed captcha verification',
+		// });
 
 		// Check if the username or email already taken
 		User.findOne(
