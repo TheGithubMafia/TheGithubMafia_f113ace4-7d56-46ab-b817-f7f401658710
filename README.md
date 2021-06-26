@@ -98,7 +98,7 @@ npm install
   * Now add this to the `.env` file
   ```
   SECRET_KEY = AlphaVio
-  URL = mongodb://localhost:27017/blogDB
+  URL = mongodb://localhost:27017/wordnookDB
   ```
 <br/>
 
@@ -157,13 +157,15 @@ show collections
 	```
 	**Check again for any errors that need to be resolved manually and if the application works fine after you lint the code.**   -->
 
-1. If your git shows an issue with your `package-lock.json` while installing dependencies or throws error that **lockfile version-2** is not compatible with your system
+1. - If your git shows an issue with your `package-lock.json` while installing dependencies or throws error that **lockfile version-2** is not compatible with your system
 	Then check your npm version by running command
 	``` 
 	 npm --version
 	```
-	**npm version should be 7 and above for lockfile version-2 that would come by default if you have a node version 15 and above.**  
+	- **npm version should be 7 and above for lockfile version-2 that would come by default if you have a node version 15 and above.**  
 	[List of Node.js releases and corresponding npm versions](https://nodejs.org/en/download/releases/)
+
+	- After upgrading your npm version, you can delete your `package-lock.json` file and run `npm install` again to fix the issue.
 
 
 ### Disclaimer-
@@ -188,6 +190,10 @@ MAILGUN_API_KEY = <your-api-key>
 
 - GirlScript Summer of Code is the 3 month long Open Source program  conducted by GirlScript Foundation, started in 2018, with an aim to help beginners get started with Open Source Development while encouraging diversity.
 
+<img align="right" src="assets/event4.png" width = "120" height = "100"><b>4. Let's Grow More Summer of Code</b>
+
+- Let's Grow More Summer of Code is a one month long Open Source program organized by LetsGrowMore Community to encourage student participation in open source software development under the guidance of mentors from the open source community. 
+
 <hr>
 
 ## Maintainers ✨
@@ -196,6 +202,8 @@ MAILGUN_API_KEY = <your-api-key>
     <td align="center"><a href="https://github.com/Pranav016"><img src="https://avatars.githubusercontent.com/u/54665036?s=460&u=1bff30cf96a1502a7abd09755f179197007bc345&v=4" width="100px;" alt=""/><br /><sub><b>Pranav Mendiratta</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=Pranav016" title="Code">💻</a><a href="https://github.com/ALPHAVIO/WordNook/commits?author=Pranav016" title="Documentation">📖</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=Pranav016" title="Maintenance">🚧</a></td>
       <td align="center"><a href="https://ananya-negi.herokuapp.com/"><img src="https://avatars.githubusercontent.com/u/54092197?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ananya Negi</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=AnanyaNegi" title="Code">💻</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=AnanyaNegi" title="Documentation">📖</a> <a href="#maintenance-AnanyaNegi" title="Maintenance">🚧</a></td>
 	<td align="center"><a href="https://www.linkedin.com/in/rushankhan/"><img src="https://avatars.githubusercontent.com/u/56950471?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rushan Khan</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=RushanKhan1" title="Code">💻</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=RushanKhan1" title="Documentation">📖</a> <a href="#maintenance-RushanKhan1" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/theBeginner86"><img src="https://avatars.githubusercontent.com/u/73700530?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pranav Singh</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=theBeginner86" title="Code">💻</a><a href="https://github.com/ALPHAVIO/WordNook/commits?author=theBeginner86" title="Documentation">📖</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=theBeginner86" title="Maintenance">🚧</a></td>
+  <td align="center"><a href="https://www.linkedin.com/in/ayush0730/"><img src="https://avatars.githubusercontent.com/u/68139755?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Ayush Jain</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=Ayush0730" title="Code">💻</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=Ayush0730" title="Documentation">📖</a> <a href="#maintenance-Ayush0730" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 
