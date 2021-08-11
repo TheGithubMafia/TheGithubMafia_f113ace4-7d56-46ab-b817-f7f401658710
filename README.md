@@ -207,48 +207,7 @@ show collections
 	- After upgrading your npm version, you can delete your `package-lock.json` file and run `npm install` again to fix the issue.
 
 
-### Disclaimer-
-The `Contact Us` feature might not work in the local environment since the API-Key has not been shared. If you still want to work on it, generate your own API key from [Mail Gun](https://www.mailgun.com/) and include it in the `.env` file as 
-```
-MAILGUN_API_KEY = <your-api-key>
-```  
-
 <hr>
-
-## Open Source Events Project is associated with:
-
-<img align="right" src="assets/event1.png" width = "120" height = "100"><b>1. JGEC Winter of Code</b>
-
-- JWoC ( JGEC Winter of Code) is a program organised by Developers JGEC in collaboration with Sristi 2020 which helps students to plunge into the realm of Open Source contribution and Software Development.
-
-<img align="right" src="assets/event2.png" width = "120" height = "100"><b>2. Mexili Winter of Code</b>
-
-- Mexili is a Free and Open Source organization whose motivation is to funnel learning and implementation through Open Source Software Development.
-
-<img align="right" src="assets/event3.png" width = "120" height = "100"><b>3. GirlScript Summer of Code</b>
-
-- GirlScript Summer of Code is the 3 month long Open Source program  conducted by GirlScript Foundation, started in 2018, with an aim to help beginners get started with Open Source Development while encouraging diversity.
-
-<img align="right" src="assets\event4.png" width = "120" height = "100"><b>4. PClub Summer of Code</b>
-
-- PSOC( PClub Summer of Code ) is the 2 month long Open Source program during summers conducted by Programming Club, UIET, with an aim to help beginners get started with Open Source Development while encouraging Diversity .
-
-<img align="right" src="assets\event5.png" width = "120" height = "100"><b>5. Let's Grow More Summer of Code</b>
-
-- Let's Grow More Summer of Code is a one month long Open Source program organized by LetsGrowMore Community to encourage student participation in open source software development under the guidance of mentors from the open source community. 
-
-<hr>
-
-## Maintainers ✨
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/Pranav016"><img src="https://avatars.githubusercontent.com/u/54665036?s=460&u=1bff30cf96a1502a7abd09755f179197007bc345&v=4" width="100px;" alt=""/><br /><sub><b>Pranav Mendiratta</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=Pranav016" title="Code">💻</a><a href="https://github.com/ALPHAVIO/WordNook/commits?author=Pranav016" title="Documentation">📖</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=Pranav016" title="Maintenance">🚧</a></td>
-      <td align="center"><a href="https://ananya-negi.herokuapp.com/"><img src="https://avatars.githubusercontent.com/u/54092197?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ananya Negi</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=AnanyaNegi" title="Code">💻</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=AnanyaNegi" title="Documentation">📖</a> <a href="#maintenance-AnanyaNegi" title="Maintenance">🚧</a></td>
-	<td align="center"><a href="https://www.linkedin.com/in/rushankhan/"><img src="https://avatars.githubusercontent.com/u/56950471?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rushan Khan</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=RushanKhan1" title="Code">💻</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=RushanKhan1" title="Documentation">📖</a> <a href="#maintenance-RushanKhan1" title="Maintenance">🚧</a></td>
-    <td align="center"><a href="https://github.com/theBeginner86"><img src="https://avatars.githubusercontent.com/u/73700530?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pranav Singh</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=theBeginner86" title="Code">💻</a><a href="https://github.com/ALPHAVIO/WordNook/commits?author=theBeginner86" title="Documentation">📖</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=theBeginner86" title="Maintenance">🚧</a></td>
-  <td align="center"><a href="https://www.linkedin.com/in/ayush0730/"><img src="https://avatars.githubusercontent.com/u/68139755?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Ayush Jain</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=Ayush0730" title="Code">💻</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=Ayush0730" title="Documentation">📖</a> <a href="#maintenance-Ayush0730" title="Maintenance">🚧</a></td>
-  </tr>
-</table>
 
 ## Contributors ✨
 
@@ -257,51 +216,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/anubhab-sarkar-webwriter/"><img src="https://avatars.githubusercontent.com/u/76936580?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anubhab Sarkar</b></sub></a><br /><a href="#design-anubhab1710" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/Subhra264"><img src="https://avatars.githubusercontent.com/u/59690052?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Subhra264</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=Subhra264" title="Code">💻</a></td>
-    <td align="center"><a href="http://sahilsaha.me"><img src="https://avatars.githubusercontent.com/u/35343652?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sahil Saha</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=sahilsaha7773" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/uttu2"><img src="https://avatars.githubusercontent.com/u/47916726?v=4?s=100" width="100px;" alt=""/><br /><sub><b>uttu2</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=uttu2" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://indiancovid19tracker.herokuapp.com/"><img src="https://avatars.githubusercontent.com/u/59636849?v=4?s=100" width="100px;" alt=""/><br /><sub><b>pankaj kumar bijarniya</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=pankajkumarbij" title="Documentation">📖</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=pankajkumarbij" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Niveditha18"><img src="https://avatars.githubusercontent.com/u/59333801?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Niveditha Palli</b></sub></a><br /><a href="#content-Niveditha18" title="Content">🖋</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=Niveditha18" title="Code">💻</a></td>
-    <td align="center"><a href="https://indiancovid19tracker.herokuapp.com/"><img src="https://avatars.githubusercontent.com/u/59636719?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lucky kumari</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=luckykumarirai" title="Documentation">📖</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=luckykumarirai" title="Code">💻</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://kanhaiyalal.000webhostapp.com/Kanhaiya.html"><img src="https://avatars.githubusercontent.com/u/58850584?v=4?s=100" width="100px;" alt=""/><br /><sub><b>kanhaiya lal</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=mak-ux" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/tusharjain0022"><img src="https://avatars.githubusercontent.com/u/59157988?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tushar Jain</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=tusharjain0022" title="Documentation">📖</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=tusharjain0022" title="Code">💻</a></td>
-    <td align="center"><a href="https://karunkarthik-portfolio.netlify.app/"><img src="https://avatars.githubusercontent.com/u/58992593?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Karun Karthik</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=karunkarthik-git" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/HarshitAditya27"><img src="https://avatars.githubusercontent.com/u/71604531?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Harshit Aditya</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=HarshitAditya27" title="Code">💻</a></td>
-    <td align="center"><a href="https://aayush-hub.github.io/Aayush-Garg-Portfolio/"><img src="https://avatars.githubusercontent.com/u/65889104?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aayush Garg</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=Aayush-hub" title="Documentation">📖</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=Aayush-hub" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Abhijay007"><img src="https://avatars.githubusercontent.com/u/64387054?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abhijay Jain</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=Abhijay007" title="Code">💻</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=Abhijay007" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/cmonojit/"><img src="https://avatars.githubusercontent.com/u/49222090?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Monojit Chakraborty</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=mcmonojit" title="Code">💻</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Ankita297"><img src="https://avatars.githubusercontent.com/u/67833077?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ankita297</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=Ankita297" title="Code">💻</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=Ankita297" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/aniket-lodh-998b34199"><img src="https://avatars.githubusercontent.com/u/55927827?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aniket Lodh</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=aniketlodh" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/m-code12"><img src="https://avatars.githubusercontent.com/u/53649201?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Monika Jha</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=m-code12" title="Code">💻</a></td>
-    <td align="center"><a href="https://vispprofile.netlify.app/"><img src="https://avatars.githubusercontent.com/u/47056243?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vismitap</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=vismitap" title="Code">💻</a></td>
-    <td align="center"><a href="https://ananya-negi.herokuapp.com/"><img src="https://avatars.githubusercontent.com/u/54092197?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ananya Negi</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=AnanyaNegi" title="Code">💻</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=AnanyaNegi" title="Documentation">📖</a> <a href="#maintenance-AnanyaNegi" title="Maintenance">🚧</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/rushankhan/"><img src="https://avatars.githubusercontent.com/u/56950471?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rushan Khan</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=RushanKhan1" title="Code">💻</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=RushanKhan1" title="Documentation">📖</a> <a href="#maintenance-RushanKhan1" title="Maintenance">🚧</a></td>
-    <td align="center"><a href="https://github.com/Ayush0730"><img src="https://avatars.githubusercontent.com/u/68139755?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ayush Jain</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=Ayush0730" title="Code">💻</a> <a href="https://github.com/ALPHAVIO/WordNook/commits?author=Ayush0730" title="Documentation">📖</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/aanchalrakheja"><img src="https://avatars.githubusercontent.com/u/68388581?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aanchal Rakheja</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=aanchalrakheja" title="Code">💻</a> <a href="#design-aanchalrakheja" title="Design">🎨</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/pranav-singh-00904b1bb/"><img src="https://avatars.githubusercontent.com/u/73700530?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pranav Singh</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=theBeginner86" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/tanishq-arya"><img src="https://avatars.githubusercontent.com/u/77333275?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tanishq Arya</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=tanishq-arya" title="Code">💻</a></td>
-    <td align="center"><a href="https://satyam-singh.netlify.app/"><img src="https://avatars.githubusercontent.com/u/56315878?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Satyam Singh</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=satcasm" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/tend2infinity"><img src="https://avatars.githubusercontent.com/u/61948033?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Soumya Singh</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=tend2infinity" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/osamamagdy"><img src="https://avatars.githubusercontent.com/u/59124937?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Osama Magdy</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=osamamagdy" title="Code">💻</a></td>
-    <td align="center"><a href="http://drhythm.tech"><img src="https://avatars.githubusercontent.com/u/51092166?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rhythm Verma</b></sub></a><br /><a href="https://github.com/ALPHAVIO/WordNook/commits?author=ritmojs" title="Code">💻</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+<img src="https://avatars.githubusercontent.com/u/76936580?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anubhab Sarkar</b></sub></a><br /><a href="#design-anubhab1710" title="Design">🎨</a>
 
 <hr>
 
